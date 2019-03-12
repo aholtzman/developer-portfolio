@@ -1,5 +1,5 @@
 import React from 'react'
-import styled, { css } from 'styled-components'
+import styled from 'styled-components'
 import data from '../assets/web-port-data'
 import DevPortItem from './devPortItem'
 import { colors } from '../assets/colors'
@@ -11,6 +11,10 @@ const Section = styled.div`
   display: flex;
   flex-direction: column;
   justify-conyent: center;
+
+  @media(max-width: 768px) {
+    padding:10px;
+  }
 `
 
 
@@ -26,7 +30,7 @@ const DevPortfolio = () => {
     <Text />
     <PortWrap>
       {data.map(data => {
-        return <DevPortItem data={data} />
+        return <DevPortItem data={data} key={data.title}/>
       })}
     </PortWrap>
     </Section>

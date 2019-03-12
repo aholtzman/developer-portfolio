@@ -1,5 +1,5 @@
 import React from 'react'
-import styled, { css } from 'styled-components'
+import styled from 'styled-components'
 import data from '../assets/book-data'
 import BookPortItem from './bookPortItem'
 import { colors } from '../assets/colors'
@@ -12,6 +12,10 @@ const Section = styled.div`
   display: flex;
   flex-direction: column;
   justify-conyent: center;
+  
+  @media(max-width: 768px) {
+    padding:10px;
+  }
 `
 
 
@@ -27,7 +31,7 @@ const BookPortfolio = () => {
     <Text />
     <PortWrap>
       {data.map(data => {
-        return <BookPortItem data={data} />
+        return <BookPortItem data={data} key={data.title}/>
       })}
     </PortWrap>
     </Section>

@@ -22,7 +22,8 @@ const Item = styled.div`
   }
 
   @media(max-width: 768px) {
-    width: 100%;
+    width: 90vw;
+    margin: 10px;
   }
 `
 
@@ -37,7 +38,7 @@ const DevPortItem = ({data}) => {
       <p>{data.code}</p>
       <p>{data.role}</p>
       <br />
-      <a href={data.url}>{data.url}</a>
+      <a href={data.url}>{data.url ? 'Visit Site' : ''}</a>
       <br /><br />
     </Item>
   )

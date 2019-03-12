@@ -23,6 +23,7 @@ const Item = styled.div`
 
   @media(max-width: 768px) {
     width: 100%;
+    margin: 10px;
   }
 `
 
@@ -36,7 +37,7 @@ const BookPortItem = ({data}) => {
       <p>{data.spec}</p>
       <p>Role: {data.role}</p>
       <br />
-      <a href={data.url}>{data.url}</a>
+      <a href={data.url}>{data.url ? 'See Link' : ''}</a>
       <br /><br />
     </Item>
   )

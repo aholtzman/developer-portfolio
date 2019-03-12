@@ -2,7 +2,6 @@ import React from 'react'
 import styled from 'styled-components'
 
 const Section = styled.div`
-  width: 100%;
   padding: 40px;
   display: flex;
   justify-content: center;
@@ -10,6 +9,7 @@ const Section = styled.div`
 
 const TextWrap = styled.div`
   max-width: 1200px;
+  width: 100%;
   align-self: center;
 
   p {

@@ -1,8 +1,9 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
+import styled from 'styled-components'
 
-import Header from "./header"
+import SocialBar from './socialBar'
 import { createGlobalStyle } from 'styled-components'
 
 const GlobalStyle = createGlobalStyle`
@@ -35,9 +36,9 @@ const Layout = ({ children }) => (
       <GlobalStyle />
         <div>
           <main>{children}</main>
-          <footer>
-            © {new Date().getFullYear()}
-          </footer>
+          <Footer>
+            <SocialBar />
+          </Footer>
         </div>
       </>
     )}
@@ -47,5 +48,13 @@ const Layout = ({ children }) => (
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
 }
+
+const Footer = styled.footer`
+  display: flex;
+  justify-content: end;
+  background-color: black;
+  padding: 10px;
+  align-items: end;
+`
 
 export default Layout

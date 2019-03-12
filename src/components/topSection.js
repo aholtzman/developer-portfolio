@@ -147,7 +147,7 @@ class TopSection extends Component {
         <Circle   />
         <Left>
           <Title><a href="#about">Adam Holtzman</a><br />
-          <br /><a href="http://adamholtzman.com" target="_blank" style={{ visibility: this.state.art }}><span>Artist</span></a>
+          <br /><a href="http://adamholtzman.com" target="_blank" rel="noopener noreferrer" style={{ visibility: this.state.art }}><span>Artist</span></a>
           <br /><a href="#books" style={{ visibility: this.state.book }}><span>Book Designer</span></a>
           <br /><span><a href="#devPort">Front End Developer</a></span>
           </Title>

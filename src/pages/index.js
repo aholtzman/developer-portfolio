@@ -1,8 +1,6 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import DevPortfolio from "../components/portfolio"
 import BookPortfolio from "../components/books"
 import TopSection from "../components/topSection"
