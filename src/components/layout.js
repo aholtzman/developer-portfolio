@@ -13,6 +13,10 @@ const GlobalStyle = createGlobalStyle`
     background-color: white;
     margin: 0;
   }
+
+  html {
+    scroll-behavior: smooth;
+  }
 `
 
 const Layout = ({ children }) => (
@@ -29,7 +33,6 @@ const Layout = ({ children }) => (
     render={data => (
       <>
       <GlobalStyle />
-        <Header siteTitle={data.site.siteMetadata.title} />
         <div>
           <main>{children}</main>
           <footer>

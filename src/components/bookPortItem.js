@@ -26,16 +26,15 @@ const Item = styled.div`
   }
 `
 
-const DevPortItem = ({data}) => {
+const BookPortItem = ({data}) => {
   return (
     <Item>
-      <h2>{data.title}</h2>
-      <br />
-      <h3>{data.dates}</h3>
-      <br />
-      <p>{data.desc}</p>
-      <p>{data.code}</p>
-      <p>{data.role}</p>
+      <h2>{data.title} - {data.year}</h2>
+      <h3>By {data.author}</h3>
+      <h3>{data.publisher}</h3>
+      <p>{data.description}</p>
+      <p>{data.spec}</p>
+      <p>Role: {data.role}</p>
       <br />
       <a href={data.url}>{data.url}</a>
       <br /><br />
@@ -43,4 +42,4 @@ const DevPortItem = ({data}) => {
   )
 }
 
-export default DevPortItem
+export default BookPortItem
