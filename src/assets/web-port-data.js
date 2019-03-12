@@ -1,6 +1,94 @@
 const data = [
   {
   id: 1,
+  title: "Underwood Jewelers",
+  image: require('../images/adh.png'),
+  desc: "Buisness website built on the Stella platform for Technology Therapy Group",
+  code: "Stella System with Vue, Vuex, GraphQL, Postgres, PostGraphile & more",
+  role: "Front End Development for Technology Therapy Group",
+  url: 'https://www.underwoodjewelers.com',
+  dates: '2018 build - 2019 continuing revision & features',
+  active: true
+},
+{
+id: 1,
+title: "The Kings Jewelers",
+image: require('../images/adh.png'),
+desc: "Buisness website built on the Stella platform for Technology Therapy Group",
+code: "Stella System with Vue, Vuex, GraphQL, Postgres, PostGraphile & more",
+role: "Front End Development",
+url: 'https://www.underwoodjewelers.com',
+dates: '2018 build - 2019 continuing revision & features',
+active: true
+},
+{
+id: 1,
+title: "Roger Dery Gem System",
+image: require('../images/adh.png'),
+desc: "Buisness website built on the Stella platform for Technology Therapy Group",
+code: "Stella System with Vue, Vuex, GraphQL, Postgres, PostGraphile & more",
+role: "Front End Development for Technology Therapy Group",
+url: 'https://www.underwoodjewelers.com',
+dates: '2018 build - 2019 continuing revision & features',
+active: true
+},
+{
+id: 1,
+title: "Roger Dery - Find Your Spirit Gem (Game)",
+image: require('../images/adh.png'),
+desc: "Buisness website built on the Stella platform for Technology Therapy Group",
+code: "Stella System with Vue, Vuex, GraphQL, Postgres, PostGraphile & more",
+role: "Front End Development for Technology Therapy Group",
+url: 'https://www.underwoodjewelers.com',
+dates: '2018 build - 2019 continuing revision & features',
+active: true
+},
+{
+id: 1,
+title: "Smart Stella",
+image: require('../images/adh.png'),
+desc: "Buisness website built on the Stella platform for Technology Therapy Group",
+code: "Stella System with Vue, Vuex, GraphQL, Postgres, PostGraphile & more",
+role: "Front End Development for Technology Therapy Group",
+url: 'https://www.underwoodjewelers.com',
+dates: '2018 build - 2019 continuing revision & features',
+active: true
+},
+{
+id: 1,
+title: "Kepler 12",
+image: require('../images/adh.png'),
+desc: "Buisness website built on the Stella platform for Technology Therapy Group",
+code: "Stella System with Vue, Vuex, GraphQL, Postgres, PostGraphile & more",
+role: "Front End Development for Technology Therapy Group",
+url: 'https://www.underwoodjewelers.com',
+dates: '2018 build - 2019 continuing revision & features',
+active: true
+},
+{
+id: 1,
+title: "Wish to Win (Game)",
+image: require('../images/adh.png'),
+desc: "Buisness website built on the Stella platform for Technology Therapy Group",
+code: "Stella System with Vue, Vuex, GraphQL, Postgres, PostGraphile & more",
+role: "Front End Development for Technology Therapy Group",
+url: 'https://www.underwoodjewelers.com',
+dates: '2018 build - 2019 continuing revision & features',
+active: true
+},
+{
+id: 1,
+title: "Flip to Win (Game)",
+image: require('../images/adh.png'),
+desc: "Buisness website built on the Stella platform for Technology Therapy Group",
+code: "Stella System with Vue, Vuex, GraphQL, Postgres, PostGraphile & more",
+role: "Front End Development for Technology Therapy Group",
+url: 'https://www.underwoodjewelers.com',
+dates: '2018 build - 2019 continuing revision & features',
+active: true
+},
+  {
+  id: 1,
   title: "Adam Holtzman Photography & Artworks",
   image: require('../images/adh.png'),
   desc: "Online art portfolio site, new design and build completed every 12 to 18 months",
@@ -29,7 +117,7 @@ const data = [
   code: "Adobe Muse",
   role: "Design & Development",
   url: 'http://woodmannfineart.com/',
-  dates: '2014 - ongoing',
+  dates: '2014 - 2018',
   active: true
 },
 {
@@ -63,28 +151,6 @@ const data = [
   role: "Design, Development & created the music video for 'The Coup'",
   url: 'https://commonloon-heroku.herokuapp.com/',
   dates: '2017 - ongoing',
-  active: true
-},
-{
-  id: 7,
-  title: "Eastport, Maine Weather",
-  image: require('../images/eastport.png'),
-  desc: "Code demo site (shows use of retreving and displaying data froma live API). Small web app that shows the current weather of Eastport, Maine.",
-  code: "React, Styled-Components & Open Weather API",
-  role: "Design & Development",
-  url: 'http://eastportweather.surge.sh/',
-  dates: '2017',
-  active: true
-},
-{
-  id: 8,
-  title: "Dot Draw",
-  image: require('../images/dots.png'),
-  desc: "Code demo site (shows use of state). A simple Web App that lets users make a pointillisim drawing with clicks",
-  code: "React & Styled-Components",
-  role: "Design & Development",
-  url: 'https://dot-draw.herokuapp.com',
-  dates: '2017',
   active: true
 },
 {
