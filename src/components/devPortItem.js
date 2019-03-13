@@ -38,7 +38,7 @@ const DevPortItem = ({data}) => {
       <p>{data.code}</p>
       <p>{data.role}</p>
       <br />
-      <a href={data.url}>{data.url ? 'Visit Site' : ''}</a>
+      <a href={data.url} target="_blank" rel="noopener noreferrer">{data.url ? 'Visit Site' : ''}</a>
       <br /><br />
     </Item>
   )
