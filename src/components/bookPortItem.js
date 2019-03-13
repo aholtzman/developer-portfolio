@@ -37,7 +37,7 @@ const BookPortItem = ({data}) => {
       <p>{data.spec}</p>
       <p>Role: {data.role}</p>
       <br />
-      <a href={data.url}>{data.url ? 'See Link' : ''}</a>
+      <a href={data.url}>{data.url ? 'View Book Listing' : ''}</a>
       <br /><br />
     </Item>
   )
