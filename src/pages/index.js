@@ -11,7 +11,7 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <Helmet>
-      <link rel="preload" as="font" crossorigin="crossorigin" type="font/Quicksand" href="https://fonts.googleapis.com/css?family=Quicksand">
+      <link rel="preload" as="font" crossorigin="crossorigin" type="font/Quicksand" href="https://fonts.googleapis.com/css?family=Quicksand" />
     </Helmet>
     <SEO title="Adam Holtzman | Front End Developer" keywords={[`gatsby`, `application`, `react`, `front end`, `developer`, `web`]} />
     <TopSection />
