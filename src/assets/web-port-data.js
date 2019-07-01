@@ -146,10 +146,10 @@ active: true
   id: 6,
   title: "Common Loon",
   image: require('../images/cl.png'),
-  desc: "Website for the band Common Loon (work in progress)",
+  desc: "Website for the band Common Loon",
   code: "React, React-Router, CSS Grid & Styled-Components",
   role: "Design, Development & created the music video for 'The Coup'",
-  url: 'https://commonloon-heroku.herokuapp.com/',
+  url: 'https://commonloonmusic.com/',
   dates: '2017 - ongoing',
   active: true
 },

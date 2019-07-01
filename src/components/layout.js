@@ -18,6 +18,10 @@ const GlobalStyle = createGlobalStyle`
   html {
     scroll-behavior: smooth;
   }
+
+  a {
+    text-decoration:none;
+  }
 `
 
 const Layout = ({ children }) => (
@@ -52,7 +56,7 @@ Layout.propTypes = {
 const Footer = styled.footer`
   display: flex;
   justify-content: end;
-  background-color: black;
+  background-color: #272727;
   padding: 10px;
   align-items: end;
 `

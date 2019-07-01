@@ -5,6 +5,9 @@ const Section = styled.div`
   padding: 40px;
   display: flex;
   justify-content: center;
+  background-color: #272727;
+  color:white;
+  min-height:70vh;
 `
 
 const TextWrap = styled.div`

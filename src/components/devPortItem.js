@@ -5,15 +5,17 @@ import { colors } from '../assets/colors'
 
 const Item = styled.div`
   width: 40%;
-  color:dimgrey;
+  color:white;
   text-align: center;
+  background-color:rgba(0, 0, 0, .15);
+  background: linear-gradient(0deg,#272727,rgba(39,39,39,.9) 10%,rgba(39,39,39,.2)) top no-repeat;
   padding:30px;
   margin: 20px;
-  background-color: white;
+  border: .5px solid white;
   border-radius: 10px;
 
   a {
-    color: ${colors.primaryDark};
+    color: white;
     text-decoration: none;
   }
 

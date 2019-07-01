@@ -1,22 +1,19 @@
 import React from 'react'
 import styled from 'styled-components'
 import data from '../assets/web-port-data'
-import DevPortItem from './devPortItem'
-import { colors } from '../assets/colors'
+import DevCard from './devCard'
 
 const Section = styled.div`
-  background-color: ${colors.primaryLight};
+  background: linear-gradient(0deg,#272727,rgba(39,39,39,.9) 10%,rgba(39,39,39,0)) top no-repeat;
   padding: 40px;
   font-size: 18px;
   display: flex;
   flex-direction: column;
-  justify-conyent: center;
 
   @media(max-width: 768px) {
     padding:10px;
   }
 `
-
 
 const PortWrap = styled.div`
   display: flex;
@@ -29,10 +26,11 @@ const DevPortfolio = () => {
     <Section>
     <Text />
     <PortWrap>
-      {data.map(data => {
-        return <DevPortItem data={data} key={data.title}/>
+      {data.map((data, index) => {
+        return <DevCard key={index} data={data}/>
       })}
     </PortWrap>
+
     </Section>
   )
 }
