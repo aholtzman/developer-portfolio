@@ -5,12 +5,13 @@ import styled from 'styled-components'
 
 import SocialBar from './socialBar'
 import { createGlobalStyle } from 'styled-components'
+import { colors } from '../assets/colors'
 
 const GlobalStyle = createGlobalStyle`
-  @import url('https://fonts.googleapis.com/css?family=Quicksand');
+  @import url('https://fonts.googleapis.com/css?family=Noto+Sans+HK&display=swap');
 
   body {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Noto Sans HK', sans-serif;
     background-color: white;
     margin: 0;
   }
@@ -56,7 +57,7 @@ Layout.propTypes = {
 const Footer = styled.footer`
   display: flex;
   justify-content: end;
-  background-color: #272727;
+  background-color: ${colors.primaryDark};
   padding: 10px;
   align-items: end;
 `
