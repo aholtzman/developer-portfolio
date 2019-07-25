@@ -8,6 +8,7 @@ const Card = styled.div`
   height: 250px;
   perspective: 1000px;
   margin:1rem;
+  cursor: pointer;
 
   @media(max-width: 768px) {
     width: 90vw;
