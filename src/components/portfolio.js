@@ -1,10 +1,10 @@
 import React from 'react'
 import styled from 'styled-components'
 import data from '../assets/web-port-data'
-import DevCard from './devCard'
+import Card from './card'
 
 const Section = styled.div`
-  background: linear-gradient(0deg,#272727,rgba(39,39,39,.9) 10%,rgba(39,39,39,0)) top no-repeat;
+  background-color: white;
   padding: 40px;
   font-size: 18px;
   display: flex;
@@ -27,7 +27,7 @@ const DevPortfolio = () => {
     <Text />
     <PortWrap>
       {data.map((data, index) => {
-        return <DevCard key={index} data={data}/>
+        return <Card key={index} data={data}/>
       })}
     </PortWrap>
 

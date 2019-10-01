@@ -1,12 +1,12 @@
 import React from 'react'
 import styled from 'styled-components'
 import data from '../assets/book-data'
-import DevCard from './devCard'
+import Card from './card'
+import { colors } from '../assets/colors'
 
 const Section = styled.div`
-  background: linear-gradient(180deg,#272727,rgba(39,39,39,.9) 10%,rgba(39,39,39,0)) top no-repeat;
   padding: 40px;
-  color: white;
+  color: ${colors.primaryDark};
   font-size: 18px;
   display: flex;
   flex-direction: column;
@@ -30,7 +30,7 @@ const BookPortfolio = () => {
     <Text />
     <PortWrap>
       {data.map(data => {
-        return <DevCard data={data} key={data.title} />
+        return <Card data={data} key={data.title} />
       })}
     </PortWrap>
     </Section>

@@ -100,7 +100,7 @@ const data = [
   id: 11,
   year: '2015',
   title: 'Photographic Holiday Cards',
-  author: 'Chrales A. Swedlund',
+  author: 'Charles A. Swedlund',
   publisher: 'Anna Press',
   role: 'designer',
   url: '',

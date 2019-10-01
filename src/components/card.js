@@ -44,8 +44,9 @@ const CardFace = styled(Base)`
 `
 
 const CardBack = styled(Base)`
-  background-color: ${colors.primaryDark};
-  color: white;
+  background-color: white;
+  color: ${colors.primaryDark};
+  text-align: left;
   transform: rotateY(180deg);
   font-size:12px;
 `
@@ -66,9 +67,11 @@ export default ({data}) => {
       <div style={{padding:`1rem`}}>
         <p>{data.year}</p>
         <p>{ data.desc ? `${data.desc}` : `By : ${data.author}`}</p>
-        <p>{data.code}</p>
-        <p>{data.role}</p>
-        <a style={{color:'white', display: data.url ? 'block' : 'none' }} href={data.url} target="_blank" rel="noopener noreferrer">Link</a>
+        <hr />
+        <p>{data.code ? 'Stack:' : ''} {data.code}</p>
+        <hr style={{display: data.code ? 'block' : 'none'}}/>
+        <p>Role: {data.role}</p>
+        <a style={{backgroundColor:`${colors.primaryDark}`, color: 'white', padding: '.25rem .5rem',  display: data.url ? 'block' : 'none', textAlign: 'right' }} href={data.url} target="_blank" rel="noopener noreferrer">Link</a>
         </div>
     </CardBack>
     </CardInner>
