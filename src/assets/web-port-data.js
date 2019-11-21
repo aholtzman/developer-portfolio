@@ -4,7 +4,7 @@ const data = [
   title: "Underwood Jewelers",
   image: require('../images/adh.png'),
   desc: "Buisness website built on the Stella platform with eCommerce for Technology Therapy Group",
-  code: "Stella System with Vue, Vuex, GraphQL, Postgres, PostGraphile & more",
+  code: "Gatsby, Netlify, Styled-Components, GraphQL, Postgres, PostGraphile & more",
   role: "Front End Development & CMS Maintainer",
   url: 'https://www.underwoodjewelers.com',
   dates: '2018',
