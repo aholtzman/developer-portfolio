@@ -5,7 +5,7 @@ const data = [
   image: require('../images/adh.png'),
   desc: "Buisness website built on the Stella platform with eCommerce for Technology Therapy Group",
   code: "Gatsby, Netlify, Styled-Components, GraphQL, Postgres, PostGraphile & more",
-  role: "Front End Development & CMS Maintainer",
+  role: "Architect & Front End Development",
   url: 'https://www.underwoodjewelers.com',
   dates: '2018',
   active: true
