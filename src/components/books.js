@@ -40,7 +40,7 @@ const BookPortfolio = () => {
 export default BookPortfolio
 
 const StyledText = styled.div`
-  max-width: 1200px;
+  max-width: 960px;
   align-self: center;
   line-height: 30px;
 

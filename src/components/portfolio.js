@@ -2,10 +2,11 @@ import React from 'react'
 import styled from 'styled-components'
 import data from '../assets/web-port-data'
 import Card from './card'
+import Stack from './stack'
 
 const Section = styled.div`
   background-color: white;
-  padding: 40px;
+  padding: 40px 0;
   font-size: 18px;
   display: flex;
   flex-direction: column;
@@ -38,17 +39,14 @@ const DevPortfolio = () => {
 export default DevPortfolio
 
 const StyledText = styled.div`
-  max-width: 1200px;
+  max-width: 960px;
   align-self: center;
   line-height: 30px;
+  margin:auto;
 
   h1 {
     text-align: center;
     padding: 2rem;
-  }
-  h2 {
-    text-align: center;
-    padding-top: 30px;
   }
 
   @media(max-width:768px){
@@ -58,6 +56,7 @@ const StyledText = styled.div`
 
 const Text = () => {
   return (
+    <div css={`text-align:center;margin:auto;`}>
     <StyledText id="devPort">
     <h1>Front End Development</h1>
       <p>I have been the front end developer at Technology Therapy since January 2018 creating business websites, online marketing games and helping to develop a custom proprietary CMS system called Stella.
@@ -68,10 +67,12 @@ const Text = () => {
       <p>
       I have been building and designing websites since 2002 with visual editing software, starting with Adobe GoLive and later Adobe Muse, within the arts community, due to my background as  a fine photographer and artist. I changed my focus to programming in 2016 while maintaining business as an art dealer and as a stay-at-home parent. My earlier work experiences both as a chef and in various capacities in the arts has benefited my work in development: I am quickly able to see both the large scale vision of a project and to break one down into manageable tasks and goals while maintaining the purpose and goal of the project.
       </p>
-      <br />
-      <hr/>
-      <h2>Select Projects</h2>
-      <br />
     </StyledText>
+    <br /><br />
+    <Stack />
+    <br />
+    <h2 style={{textAlign:'center'}}>Select Projects</h2>
+    <br />
+    </div>
   )
 }
