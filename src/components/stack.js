@@ -29,9 +29,10 @@ export default() => (
       <div>
         <h2>Front End</h2>
         <ul>
-        <li>ReactJS</li>
-        <li>GatsbyJS</li>
-        <li>VueJS</li>
+        <li>React</li>
+        <li>React Native</li>
+        <li>Gatsby</li>
+        <li>Vue</li>
         <li>Web Components</li>
         <li>Styled-Components</li>
         <li>TailwindCSS</li>
